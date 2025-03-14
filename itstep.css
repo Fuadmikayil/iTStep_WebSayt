@@ -265,12 +265,12 @@
 	padding: 0;
 }
 .esas nav ul li .esasnomre{
-	width: 27%;
+	width: 500px;
 	position: absolute;
-	top: 35px;
+	top: 13px;
 	right: 230px;
-	z-index: 999999999;
-	height: 500px;
+	z-index:999;
+	height: 400px;
 	display: none;
 }
 .esas nav ul li:hover .esasnomre{
@@ -288,9 +288,8 @@
  .esas nav ul li .esasnomre .nomresec .daxilinomreler{
  	width: 100%;
  	display: flex;
- 	gap: 10px;
  	background: white;
-	height: 600px;
+	height: 550px;
  }
  
 .esas nav ul li .esasnomre .nomresec .solnomreler{
@@ -530,43 +529,20 @@
 	text-align: justify;
 }
 .esas .banner1{
-	width: 100%;
-	background: black;
-	border-bottom: 2px solid #37383B;
-	display: flex;
-	gap: 30px;
-	padding: 20px 10px;
 	position: relative;
+	width: 100%;
+	height: 50px;
 	overflow: hidden;
-	padding-bottom: 40px;
+	background-color: #111217;
+	white-space: nowrap;
 
 }
-.esas .banner1 p{
+.moving-text {
 	color: gray;
-	display: inline-block;
-	font-size: 1.5rem;
-	font-weight: bold;
 	position: absolute;
-	width: 260px;
-	text-align: center;
-}
-.esas .banner1 p:nth-child(1){
-	left: 0px;
-}
-.esas .banner1 p:nth-child(2){
-	left: 300px;
-}
-.esas .banner1 p:nth-child(3){
-	left: 600px;
-}
-.esas .banner1 p:nth-child(4){
-	left: 900px;
-}
-.esas .banner1 p:nth-child(5){
-	left:1200px;
-}
-.esas .banner1 p:nth-child(6){
-	left: 1500px;
+	top: 15px;
+	font-size: 20px;
+	font-weight: bold;
 }
 .esas .Böyuklerüçüntehsil{
 	width: 100%;
